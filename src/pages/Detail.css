@@ -1,0 +1,75 @@
+.write-container{
+    display: inline-block;
+    width:846px;
+    height:100%;
+}
+
+.input-lnfor-group {
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    width: 300px;
+    margin-top: 0px;
+    float: left;
+}
+
+.date-text {
+    display: inline-block;
+    width: 190px;
+    padding-bottom: 25px;
+    margin-bottom:  25px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img.thumbnail {
+    display: inline-block;
+    height:250px;
+    width: 216px;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+label.weight {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    display: inline-block;
+    padding-top: 25px;
+    margin-top: 25px;
+    width: 220px;
+    font-weight: bold;
+}
+
+label.weight input {
+    width:120px;
+}
+
+.main-content {
+    display: inline-block;
+    height: 430px;
+    width:540px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.5);
+    float: left;
+    overflow-y: scroll;
+}
+
+pre {
+    display: inline-block;
+    text-wrap: wrap;
+    margin: 5px;
+}
+
+.btn-group {
+    width:100%;
+    height:50px;
+    margin-top:15px;
+}
+
+.update-btn, .delete-btn {
+    float: right;
+    font-size: 17px;
+    margin-left:10px;
+}
